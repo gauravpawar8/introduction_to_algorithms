@@ -1,0 +1,46 @@
+# Ignore build files
+build/
+*.o
+*.obj
+*.exe
+*.so
+*.a
+*.lib
+
+# Ignore CMake files
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+
+# Ignore IDE files
+.vscode/
+*.suo
+*.ntvs*
+*.swp
+*.swo
+*.vcxproj
+*.vcxproj.filters
+*.sln
+*.dir
+x64/
+
+# Ignore compiler output
+*.err
+*.out
+
+# Ignore user-specific files
+.user
+*.user
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore documentation files
+doc/
+*.pdf
+*.html
+
+
