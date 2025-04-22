@@ -1,11 +1,17 @@
 cmake_minimum_required(VERSION 3.10)
-project(Algorithms)
 
-# Set the include directory
+# Project name and version
+project(introduction_to_algorithms VERSION 1.0)
+
+# Specify the C++ standard
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
+
+# Include header files
 include_directories(include)
 
-# Add the src directory
-add_subdirectory(src)
+# Add source files
+file(GLOB_RECURSE SOURCES "src/*.cpp")
 
-# Add the main.cpp file
-add_executable(${PROJECT_NAME} main.cpp)
+# Add the executable
+add_executable(introduction_to_algorithms main.cpp ${SOURCES})

@@ -1,4 +1,4 @@
-#include "insertion_sort.h"
+#include <algorithms/sorting/insertion_sort.h>
 #include <iostream>
 
 
